@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hang-Man</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> </head>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+<style>
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 30px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(assets/images/morelife.jpg);
+    background-position: 0% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+.container 
+    {
+        width: 780px;
+        background:black;
+        margin: 0 auto;
+        height:100%;
+   }
+   body {
+    font-family: 'Russo One', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgba(26, 37, 181, 0.98);
+    background-color: rgba(0,0,0,.25);
+}
+/*desktop*/
+	@media(max-width:980px)
+	{
+		content
+	}
+	/*tablet*/
+	@media(max-width:768px)
+	{
+	content
+	}
+	/*phone*/
+	@media(max-width:640px)
+	{content
+		
+
+	}
+	img{
+		padding:1px;
+   border:1px solid #021a40;
+   
+		height: 10%;
+		width: 60%;
+		background-size: cover;
+	}
+
+</style>
+
+<body bgcolor="black" onload="startUp()">
+   <content> 
+    <div class="contianer">
+       <div class="jumbotron">
+	   </div> 
+        <div class="row">
+        	<div class="col-sm-12">
+<center><img src="assets/images/view.jpg" class="img-responsive" ></center>
+        	</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="well well-grey">
+                    <center>
+                        
+                        <h1>GUESS A LETTER TO COMPLETE WORD</h1>
+                        <h4>(PLAYLIST TITLES)</h4>
+                        <h6>ENTER (-) FOR SPACE</h6>
+                        <input id="letter" type="text">
+                        <input type="button" value="letter" onClick="Letter()" />
+                        <h5>(Insert One Letter in Text-Box at a Time)</h5>
+             
+                </div>
+                </center>
+                <center>
+                    <div id="letters">
+                        <h3>WORD<a id="a"> </a></h3>
+                    </div>
+                    <h3> <p id="answer"></h3>
+                    <h3> <p id="counter"></h3>
+                    <h3> <p id="stat"></h3>
+                    <h1 id="word">
+                    </center>
+                 
+            
+</div>
+        </div>
+    <div class="jumbotron">
+	   </div> 
+
+    </div>
+</content>
+</body>
+
+</html>
